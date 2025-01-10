@@ -1,0 +1,27 @@
+.not-found__title {
+    text-align: center;
+}
+
+.not-found__img {
+    /* Fallbacks */
+    min-height: 100vh;
+
+    width: 100%;
+    min-height: 100svh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.not-found__btn {
+    margin: 15px auto;
+}
+
+.not-found__btn:hover {
+    --bg-clr: var(--clr-neutral-3);
+    --border-clr: var(--clr-neutral-3);
+}
+
+.not-found__link {
+    color: var(--clr-neutral-6)
+}

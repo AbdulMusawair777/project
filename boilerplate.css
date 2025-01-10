@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--font-1), 'Times New Roman', Times, serif;
+    color: var(--clr-neutral-1);
+    background-color: var(--bg-dark-1);
+}
+
+section {
+    /* Fallbacks */
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    min-height: 100svh;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: var(--font-1), 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+input {
+    font-family: var(--font-1), 'Times New Roman', Times, serif;
+}
